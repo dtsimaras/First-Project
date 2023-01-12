@@ -1,11 +1,18 @@
 body {
-  background-color: rgb(255, 246, 116);
+  background-color: rgb(116, 239, 255) ;
+  display: flex;
+  justify-content: center;
+  padding: 56px;
 }
-.test {
+
+.container {
   border: 2px solid red;
-  padding: 24px;
-  background-color: rgb(116, 239, 255);
+  padding: 24px 56px;
+  background-color:  rgb(255, 246, 116);
+  width: 100%;
+  max-width: 1500px;
 }
+
 h1 {
   font-size: 100px;
   color: rgb(133, 0, 151);
@@ -17,12 +24,20 @@ h1:hover {
 }
 
 p {
-  font-size: 20px;
+  font-size: 24px;
+}
+
+li{
+  font-size: 22px;
+  font-style:italic;
+  margin-bottom: 5px;
 }
 
 button {
   font-size: 24px;
   animation: float 700ms infinite alternate-reverse;
+  border-radius: 10px;
+  margin: 24px;
 }
 
 @keyframes float {
@@ -42,6 +57,14 @@ a {
   font-size: x-large;
 }
 .req {
-  display: flex;
-  align-items: center;
+ background-color: #6030b1;
+ border-radius: 50px;
+ border-color: blue;
+ padding:5px 12px;
+ color: white;
+ transition: all 300ms ease;
+}
+
+.req:hover{
+  background-color: #5d3eff;
 }

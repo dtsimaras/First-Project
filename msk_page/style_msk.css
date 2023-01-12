@@ -1,14 +1,13 @@
 body {
-  background-color: rgb(246, 255, 114);
+  background-color: rgb(116, 239, 255);
 }
 .box {
   width: 100%;
+  max-width: 1500px;
   height: 500px;
   background-color: rgb(255, 239, 99);
-  padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px;
-  border: 5px solid rgb(236, 91, 255);
-
+  padding: 10px;
+  border: 5px solid rgb(187, 91, 255);
   display: flex;
   justify-content: space-between;
 }
@@ -22,26 +21,51 @@ footer {
   display: flex;
   justify-content: center;
   font-size: x-large;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
 }
 
 .home {
-  font-size: x-large;
+  margin: 20px 5px;  
 }
-.mainpage {
-  width: 100%;
-  height: 300px;
 
-  padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px -10px;
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
 }
+
+h1,h2 {
+  color: blue;
+  font-size: 28px;
+  margin: 56px 0 12px 0;
+}
+
 h1 {
-  color: blue;
-  font-size: x-large;
-  margin: 10px 10px 10px 60px;
+  margin-top: -24px;
 }
-h2 {
-  color: blue;
-  font-size: x-large;
-  margin: 80px 10px 10px 60px;
+
+li{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+a{
+  text-decoration: none;
+  font-size:large;
+  font-style:bold;
+}
+
+.home-button{
+  background-color: #6030b1;
+  border-radius: 50px;
+  padding: 8px 20px;
+  color:white;
+  transition: all 300ms ease;
+}
+
+.home-button:hover{
+  background-color: #5d3eff;
 }
